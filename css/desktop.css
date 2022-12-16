@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navber-logo{
+    text-align: left;
+    
+}
+
+.navber-heading h1{
+    color: #bc745e;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 3px -3px 5px #9a0707;
+    /* box-shadow: 1px 1px black; */
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 200px;
+    padding-top: 31px;
+}
+.navber-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navber-menu a{
+    padding: 10px 10px;
+    margin: 10px 5px;
+}
+.profile-logo img{
+    width: 120px;
+    transition: width 2s, transform 2s;
+    bottom: 10px;
+    left: 40px;
+}
+.profile-logo img:hover{
+    width: 140px;
+}
+.profile-img img{
+    width: 120px;
+    transition: width 2s, transform 2s;
+    background-color: transparent;
+    top: 10px;
+    right: 40px;
+}
+.profile-img img:hover{
+    width: 140px;
+}
+
+.profile h1{
+    font-size: 34px;
+}
+.profile p{
+    font-size: 16px;
+}
+/* about me starts is here */
+.aboutme-image{
+    margin-top: 75px;
+}
+.aboutme-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid gray;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+.cv-button{
+    text-align: left !important;
+}
+/* about me ends is here */
+
+/* professional experience start is here */
+
+.proEx{
+    padding:1% 5%;
+}
+/* professional experience ends is here */
+
+
+.btn{
+    padding: 12px;
+}
+
+.social{
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.footer-menu a{
+    display: inline;
+    margin-left: 10px;
+}
+.footer-desc{
+    margin-top: -51px;
+}
+.cv-button{
+    margin-right: 40px;
+    width: 120px;
+    text-align: center;
+}
